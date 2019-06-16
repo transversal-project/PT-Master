@@ -86,7 +86,7 @@ require_once("connexion.php");
   <!-- Navbar -->
 
   <!-- Full Page Intro -->
-  <div class="view full-page-intro" style="background-image: url('img/4.jpg'); background-repeat: no-repeat; background-size: cover;">
+  <div class="view full-page-intro" style="background-image: url('../img/4.jpg'); background-repeat: no-repeat; background-size: cover;">
 
     <!-- Mask & flexbox options-->
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center" style="margin-top: 50px">
@@ -192,7 +192,7 @@ require_once("connexion.php");
             <!-- Sign up button -->
             <input type="submit" class="btn btn-info btn-rounded           " >
             <p style="margin-left: 65px">Je suis membre ?
-        <a href="index.php"> S'authentifier</a>
+        <a href="../"> S'authentifier</a>
       </p>
         </form>
         <!-- Form -->

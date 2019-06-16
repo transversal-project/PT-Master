@@ -32,7 +32,7 @@ $ps->execute();
 <body>
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
     <div class="container">
-      <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+      <a href="" class="navbar-brand"  target="_blank" >
         <strong>SEN'AIR</strong>
       </a>
 
@@ -48,35 +48,35 @@ $ps->execute();
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Acceuill
+            <a class="nav-link"  disabled>Acceuill
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/" target="_blank">Dispositifs</a>
+            <a class="nav-link" href="#" target="_blank">Dispositifs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Analyse & Bilan</a>
+            <a class="nav-link" href="../graphe" target="_blank">Analyse & Bilan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Apropos de SEN'AIR</a>
+            <a class="nav-link" href="#" target="_blank">Apropos de SEN'AIR</a>
           </li>
         </ul>
 
         <!-- Right -->
         <ul class="navbar-nav nav-flex-icons">
           <li class="nav-item">
-            <a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
+            <a href="https://www.facebook.com/" class="nav-link" target="_blank">
               <i class="fab fa-facebook-f"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
+            <a href="https://twitter.com/" class="nav-link" target="_blank">
               <i class="fab fa-twitter"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
+            <a href="https://snapchat.com/" class="nav-link" target="_blank">
               <i class="fab fa-snapchat-ghost"></i>
             </a>
           </li><strong>
@@ -94,7 +94,7 @@ $ps->execute();
   <!-- Navbar -->
 
   <!-- Full Page Intro -->
-  <div class="view full-page-intro" style="background-image: url('img/2.jpg'); background-repeat: no-repeat; background-size: cover;">
+  <div class="view full-page-intro" style="background-image: url('../img/2.jpg'); background-repeat: no-repeat; background-size: cover;">
       <div class="mask rgba-black-light d-flex justify-content-center align-items-center" style="margin-top: 50px">
       <div class="container" >
         <div class="row wow fadeIn">
@@ -103,14 +103,14 @@ $ps->execute();
                 <div class="card " style="width: 60rem;">
                     <div class="card-block">
                         <table id="dt-select" class="table table-striped table-bordered" cellspacing="0" width="100%">
-                          <thead>
+                          <thead >
                         <tr>
-                            <th>Nom</th>
-                            <th>Prenom</th>
-                            <th>Role</th>
-                            <th>Login</th>
-                            <th>Password</th>
-                            <th>Validation</th>                            
+                            <th><strong>Nom</strong></th>
+                            <th><strong>Prenom</strong></th>
+                            <th><strong>Role</strong></th>
+                            <th><strong>Login</strong></th>
+                            <th><strong>Password</strong></th>
+                            <th><strong>Validation</strong></th>                            
                         </tr>
                     </thead>
                     <tbody>
